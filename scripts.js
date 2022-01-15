@@ -27,7 +27,7 @@ function buildBoxes(arr) {
     var container = document.createElement('div');
     var row = document.createElement('div');
     root.innerHTML = '';
-    container.className = 'container my-5 fade';
+    container.className = 'container mt-2 fade';
     row.className = 'row mx-0';
     arr.forEach(obj => {
 
